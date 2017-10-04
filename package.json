@@ -1,0 +1,36 @@
+{
+  "name": "any-component",
+  "version": "0.0.0",
+  "description": "Create vidom library-agnostic components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rand0me/any-component.git"
+  },
+  "keywords": [
+    "react",
+    "preact",
+    "inferno",
+    "library-agnostic"
+  ],
+  "author": "rand0me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rand0me/any-component/issues"
+  },
+  "homepage": "https://github.com/rand0me/any-component#readme",
+  "dependencies": {
+    "preact": "^8.2.5"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
