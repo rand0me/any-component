@@ -10,4 +10,7 @@ const LIBS = [ 'preact', 'react', 'inferno' ];
     if (!module.exports.Component) {
         throw Error('You must install either: ' + LIBS.join(', '))
     }
+    if (module.exports.createElement) {
+        module.exports.h = module.exports.createElement;
+    }
 })()
