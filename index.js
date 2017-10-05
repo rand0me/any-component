@@ -1,16 +1,14 @@
-const LIBS = [ 'preact', 'react', 'inferno' ];
-
-(function () {
-    var lib;
-    LIBS.forEach(function (libName) {
+try {
+    module.exports = require('preact');
+} catch (e) {
+    try {
+        module.exports = require('inferno');
+    } catch (e) {
         try {
-            module.exports = require(libName);
-        } catch(e) { }
-    });
-    if (!module.exports.Component) {
-        throw Error('You must install either: ' + LIBS.join(', '))
+            module.exports = require('react');
+            module.exports.h = module.exports.createElement;
+        } catch (e) {
+            throw Error('You should install either: preact, inferno or react');
+        }
     }
-    if (module.exports.createElement) {
-        module.exports.h = module.exports.createElement;
-    }
-})()
+}
