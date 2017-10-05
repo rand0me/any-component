@@ -1,14 +1,18 @@
+var path;
+
 try {
-    module.exports = require('preact');
+    path = require.resolve('preact');
 } catch (e) {
     try {
-        module.exports = require('inferno');
+        path = require.resolve('inferno');
     } catch (e) {
         try {
-            module.exports = require('react');
-            module.exports.h = module.exports.createElement;
+            path = require.resolve('react');
         } catch (e) {
-            throw Error('You should install either: preact, inferno or react');
+            throw Error('You should install either "preact", "inferno" or "react"');
         }
     }
 }
+
+module.exports = require(path)
+module.exports.h = module.exports.h || module.exports.createElement;
