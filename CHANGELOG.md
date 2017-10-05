@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/rand0me/any-component/compare/v0.1.0...v0.1.1) (2017-10-05)
+
+
+### Bug Fixes
+
+* **lib:** Fix "dynamic require" for webpack ([030937a](https://github.com/rand0me/any-component/commit/030937a))
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/rand0me/any-component/compare/v0.0.1...v0.1.0) (2017-10-04)
 
