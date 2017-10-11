@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/rand0me/any-component/compare/v0.2.0...v0.2.1) (2017-10-11)
+
+
+### Bug Fixes
+
+* **lib:** Fix not working browser version ([6aa51ee](https://github.com/rand0me/any-component/commit/6aa51ee))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/rand0me/any-component/compare/v0.1.2...v0.2.0) (2017-10-05)
 
