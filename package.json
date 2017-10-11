@@ -3,7 +3,6 @@
   "version": "0.2.0",
   "description": "Create vidom library-agnostic components",
   "main": "index.js",
-  "browser": "browser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,9 +22,7 @@
     "url": "https://github.com/rand0me/any-component/issues"
   },
   "homepage": "https://github.com/rand0me/any-component#readme",
-  "dependencies": {
-    "preact": "^8.2.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0"
   },
