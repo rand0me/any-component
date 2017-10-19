@@ -12,7 +12,7 @@ $ yarn add any-component
 ```
 
 ## Usage
-```
+```js
 const { h, Component } = require('any-component');
 
 /** @jsx h */
