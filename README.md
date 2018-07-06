@@ -1,5 +1,8 @@
 any-component
 =============
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rand0me/any-component.svg)](https://greenkeeper.io/)
+
 Provides either "react", "preact", "inferno" `h()` and `Component` class to build library-agnostic components.
 
 ## Installation
